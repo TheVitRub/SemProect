@@ -1,0 +1,20 @@
+TD, TH{
+    border: 1px solid white;
+}
+H1 {
+  text-shadow:
+    1px 1px 0 orange,
+    1px -1px 0 orange,
+    -1px 1px 0 orange,
+    -1px -1px 0 orange;
+  color: #111;
+  transition: all 1s;
+}
+
+H1:hover {
+  text-shadow:
+    1px 1px 0 yellowgreen,
+    1px -1px 0 yellowgreen,
+    -1px 1px 0 yellowgreen,
+    -1px -1px 0 yellowgreen;
+  }
