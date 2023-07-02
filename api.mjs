@@ -30,6 +30,4 @@ class Planet {
         this.residents = residents
     }
 }
-
-
 export {Persons, Planet}
